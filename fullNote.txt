@@ -1,15 +1,3 @@
-const { StrictMode } = require("react");
-
-const score  = 100;
-let acocuntName = "binod"
-var acocuntEmail = "binod@gmail.com"
-const accountPassword = "password"
-let justDeclare;  // value will be undefined
-
-
-console.log(score);
-
-
 console.table([score, acocuntName, acocuntEmail, accountPassword, justDeclare]) 
 // intresting schema format ma dekhaudo rixa.
 
@@ -18,3 +6,7 @@ console.table([score, acocuntName, acocuntEmail, accountPassword, justDeclare])
 // cause it will create unusual problem in block and functional scope
 
 
+
+
+'use strict';
+yo lekhyo vane chai hamle lekheko code lai chai naya version ko code manera treat garxa nodejs le.
