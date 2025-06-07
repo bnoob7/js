@@ -19,7 +19,11 @@ Symbol  //especially used in react, extensively usedin figma to seperate the uni
 
 let name = 'Binod'
 let age = 20
-let address = lalitpur
+let address = 'lalitpur'
+
+console.log(typeof name)
 
 
+
+console.table([typeof name, typeof age, typeof address])
 
